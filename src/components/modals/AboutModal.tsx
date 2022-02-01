@@ -22,7 +22,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
           jgngo
         </a> 
         
-        <p className="py-4">Tagalog word list from <a className="underline font-bold" href="https://tagalog.pinoydictionary.com/">https://tagalog.pinoydictionary.com</a> 
+        <p className="py-4">Cebuano word list from <a className="underline font-bold" href="https://tagalog.pinoydictionary.com/">https://cebuano.pinoydictionary.com</a> 
         </p>
 
         <p className="py-4"><a

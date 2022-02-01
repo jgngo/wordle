@@ -1,5 +1,5 @@
-import { WORDS } from '../constants/wordlist'
-import { VALIDGUESSES } from '../constants/validGuesses'
+import { WORDS } from '../constants/lang/cebuano/wordlist'
+import { VALIDGUESSES } from '../constants/lang/cebuano/validGuesses'
 
 export const isWordInWordList = (word: string) => {
   return (
