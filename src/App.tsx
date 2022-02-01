@@ -155,15 +155,15 @@ function App() {
           {WORDLE_TITLE}
         </h1>
         <SunIcon
-          className="h-6 w-6 cursor-pointer dark:stroke-white"
+          className="mx-1 h-6 w-6 cursor-pointer dark:stroke-white"
           onClick={() => handleDarkMode(!isDarkMode)}
         />
         <InformationCircleIcon
-          className="h-6 w-6 cursor-pointer dark:stroke-white"
+          className="mx-1 h-6 w-6 cursor-pointer dark:stroke-white"
           onClick={() => setIsInfoModalOpen(true)}
         />
         <ChartBarIcon
-          className="h-6 w-6 cursor-pointer dark:stroke-white"
+          className="mx-1 h-6 w-6 cursor-pointer dark:stroke-white"
           onClick={() => setIsStatsModalOpen(true)}
         />
       </div>
